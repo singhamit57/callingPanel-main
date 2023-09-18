@@ -1,0 +1,2 @@
+[08-Oct-2021 07:27:11 UTC] PHP Warning:  include(../db.php): failed to open stream: No such file or directory in /home/sinoxfx/public_html/callcenter/uploadfiles/files/index.php on line 2
+[08-Oct-2021 07:27:11 UTC] PHP Warning:  include(): Failed opening '../db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sinoxfx/public_html/callcenter/uploadfiles/files/index.php on line 2
