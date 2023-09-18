@@ -4,6 +4,7 @@ import 'package:callingpanel/controllers/badic_req_ctrl.dart';
 import 'package:callingpanel/pages/dashboard/dashboardpages/dashboard_controller.dart';
 import 'package:callingpanel/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'controllers/logedusercontroller.dart';
 import 'pages/login/loginpage_controll.dart';
@@ -19,6 +20,7 @@ void main() {
   // ));
 
   // SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.top]);
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Color(0xffff6920)));
   runApp(const MyApp());
 }
 

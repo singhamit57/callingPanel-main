@@ -197,7 +197,7 @@ class _MobileAppCallHistoryState extends State<MobileAppCallHistory> {
     if (lable == 'Total Calls' && callHistoryCtrl!.searchtextctrl.text == "") {
       _selected = true;
     }
-    Color _color = _selected ? Colors.blue : kdblackcolor;
+    Color _color = _selected ? logoorangecolor : kdblackcolor;
     double _width = _selected ? 2 : 0;
     return GestureDetector(
       onTap: () {

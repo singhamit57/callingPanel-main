@@ -399,8 +399,9 @@ class _MobileNewDataPageState extends State<MobileNewDataPage> {
                 onSelected: (int value) {
                   onpopmenuselection(value);
                 },
+                //child: Icon(Icons.upload,color: logobluecolor,),
                 icon: Image.asset(
-                  'assets/icons/uploadicon.png',
+                  'assets/icons/upoadImage.png',
                   // height: 40,
                   // width: 40,
                   fit: BoxFit.cover,
@@ -455,16 +456,19 @@ class _MobileNewDataPageState extends State<MobileNewDataPage> {
         // bottomSheet:
         //     buildnewdatacard(context: context, mdatactrl: newDataCtrl!),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             shownewdatacard(context: context, mdatactrl: newDataCtrl!);
           },
-          backgroundColor: kdwhitecolor,
-          child: Image.asset(
-            'assets/icons/newleadicon.png',
-            // height: 50,
-            fit: BoxFit.cover,
-          ),
+          backgroundColor: logoorangecolor,
+          child: Icon(Icons.add,color: Colors.white,),
+
+          // child: Image.asset(
+          //   'assets/icons/newleadicon.png',
+          //   // height: 50,
+          //   fit: BoxFit.cover,
+          // ),
         ),
 
         body: Column(children: [
